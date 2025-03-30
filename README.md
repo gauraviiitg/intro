@@ -17,7 +17,7 @@ This is a personal portfolio website built using React and Webpack. It showcases
 ## 📥 Installation & Setup
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/mark-escosura/portfolio.git
+   git clone https://github.com/gauraviiitg/intro.git
    cd portfolio
    ```
 2. **Install dependencies:**
