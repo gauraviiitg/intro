@@ -177,7 +177,7 @@ const Main = () => {
           <Contact
             click={+false}
             target='_blank'
-            to={{ pathname: 'mailto:escosuramarkse@gmail.com' }}
+            to={{ pathname: 'mailto:gauravchoudharyiiitg@gmail.com' }}
           >
             <motion.h2
               initial={{
@@ -196,21 +196,22 @@ const Main = () => {
           </Contact>
 
           <BLOG click={+false} onClick={() => setPath('blog')} to='/blog'>
-            <motion.h2
-              initial={{
-                y: -200,
-                transition: { type: 'spring', duration: 1.5, delay: 1 },
-              }}
-              animate={{
-                y: 0,
-                transition: { type: 'spring', duration: 1.5, delay: 1 },
-              }}
-              whileHover={{ scale: 1.1 }}
-              whileTap={{ scale: 0.9 }}
-            >
-              Blog
-            </motion.h2>
-          </BLOG>
+  <motion.h2
+    initial={{
+      y: -200,
+      transition: { type: 'spring', duration: 1.5, delay: 1 },
+    }}
+    animate={{
+      y: 0,
+      transition: { type: 'spring', duration: 1.5, delay: 1 },
+    }}
+    whileHover={{ scale: 1.1 }}
+    whileTap={{ scale: 0.9 }}
+  >
+    Extra
+  </motion.h2>
+</BLOG>
+
 
           <WORK to='/work' click={click}>
             <motion.h2

@@ -1,71 +1,42 @@
 export const Work = [
   {
     id: 1,
-    name: 'Private Budget App',
+    name: 'AKINATOR - Automated Issue Categorization',
     description:
-      'This private budget app project was bootstrapped with Create React App and Bootstrap',
+      'An NLP-based system deployed on Google Cloud to classify customer queries using SVM and BERT models.',
 
-    tags: ['react', 'bootstrap', 'context-api'],
+    tags: ['NLP', 'SVM', 'BERT', 'Google Cloud'],
 
-    demo: 'https://private-budget-app.vercel.app/',
-    code: 'https://github.com/mark-escosura/budget-app',
+    code: 'https://github.com/gauraviiitg/akinator',
   },
   {
     id: 2,
-    name: 'QR-Code Component',
+    name: 'SHATRANJ - AI Checkers Trainer',
     description:
-      'A responsive navbar menu component in ReactJS with react-router functionalities. Built from scratch.',
-    tags: ['html', 'css'],
+      'Implemented multi-layered alpha-beta pruning, improving search efficiency and achieving a 93.2% win rate.',
 
-    demo: 'https://qr-code-ivory.vercel.app/',
-    code: 'https://github.com/mark-escosura/qr-code-component',
+    tags: ['AI', 'Alpha-Beta Pruning', 'Game Theory'],
+
+    code: 'https://github.com/gauraviiitg/shatranj',
   },
   {
     id: 3,
-    name: 'Ooga Booga',
-    description: 'An application that shows different monsters.',
-    tags: ['react, css'],
+    name: 'AAROGYA 6.0 - Healthcare Portal',
+    description:
+      'DBMS-based healthcare portal optimizing database normalization and managing 10,000+ patient records.',
 
-    demo: 'https://ooga-booga.vercel.app/',
-    code: 'https://github.com/mark-escosura/ooga-booga',
+    tags: ['DBMS', 'SQL', 'Healthcare'],
+
+    code: 'https://github.com/gauraviiitg/aarogya',
   },
   {
     id: 4,
-    name: 'Interactive Rating Component',
-    description:
-      'An interactive card rating feature that allows users to give feedback. It includes user interactions and DOM updating.',
-    tags: ['html, css, vanillaJS'],
+    name: 'Personal Portfolio',
+    description: 'A clean and interactive portfolio showcasing projects, skills, and achievements.',
 
-    demo: 'https://interactive-rating-component-peach.vercel.app/',
-    code: 'https://github.com/mark-escosura/interactive-rating-component-main',
-  },
-  {
-    id: 5,
-    name: 'Advice Generator Application',
-    description:
-      'Users should be able to generate a new advice every time a button is clicked.',
-    tags: ['html, css, vanillaJS'],
+    tags: ['React', 'CSS', 'GitHub Pages'],
 
-    demo: 'https://advice-generator-application.vercel.app/',
-    code: 'https://github.com/mark-escosura/advice-generator-app-main',
-  },
-  {
-    id: 6,
-    name: 'NFT Card Component',
-    description: 'A simple UI for a NFT card component',
-    tags: ['html, css'],
-
-    demo: 'https://nft-preview-card-tau-rose.vercel.app/',
-    code: 'https://github.com/mark-escosura/nft-preview-card-component-main',
-  },
-  {
-    id: 7,
-    name: 'Movie App',
-    description:
-      'Contributed to the project by adding a title and making it responsive in all screen sizes',
-    tags: ['html, css, vanillaJS'],
-
-    demo: 'https://movie-app-project-zero.vercel.app/',
-    code: 'https://github.com/MaryAngelique/movie-app',
+    code: 'https://github.com/gauraviiitg/intro',
   },
 ];
+

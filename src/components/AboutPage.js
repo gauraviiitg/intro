@@ -85,16 +85,20 @@ const AboutPage = () => {
         </Caspar>
 
         <Main>
-          I'm a front-end developer located in California. I love to create
-          simple yet beautiful websites with great user experience.
-          <br />
-          <br />
-          I'm interested in the whole front-end with a little bit of back-end. I
-          love trying new things and building great projects.
-          <br />
-          <br />I believe everything is art when you put your consciousness in
-          it. You can connect with me via email or social media.
-        </Main>
+  I'm a full-stack developer passionate about AI and backend systems. I enjoy building  
+  intelligent applications that solve real-world problems efficiently.
+  <br />
+  <br />
+  My expertise includes AI, database management, and full-stack web development.  
+  I love optimizing algorithms, exploring new technologies, and continuously improving  
+  my coding skills.
+  <br />
+  <br />
+  I believe in writing clean, scalable code and always striving for innovation.  
+  Feel free to connect with me via email or social media!
+</Main>
+<BigTitle text="About Me" />
+
         <BigTitle text="ABOUT" top="2rem" right="2rem" />
       </Box>
     </ThemeProvider>

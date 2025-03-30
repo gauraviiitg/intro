@@ -95,10 +95,11 @@ const Intro = () => {
     >
       <SubBox>
         <Text>
-          <h1> Hi,</h1>
-          <h3> I'm MarkInTech</h3>
-          <h6> FrontEnd Dev in the making.</h6>
-        </Text>
+  <h1>Hi,</h1>
+  <h3>I'm Gaurav</h3>
+  <h6>Backend & Full-Stack Developer passionate about scalable systems.</h6>
+</Text>
+
       </SubBox>
       <SubBox>
         <motion.div

@@ -14,7 +14,7 @@ const Box = styled.div`
 const Loading = () => {
   return (
     <Box>
-      <h1>Loading...</h1>
+      <h1>Loading...to infinity</h1>
     </Box>
   );
 };

@@ -76,56 +76,62 @@ const Description = styled.h2`
     margin-left: 2rem;
   }
 `;
+
 const MySkillsPage = () => {
   return (
     <ThemeProvider theme={LightTheme}>
       <Suspense fallback={<Loading />}>
-      <Box>
-        <LogoComponent theme="light" />
-        <SocialIcons theme="light" />
-        <PowerButton />
-        <ParticleComponent theme="light" />
+        <Box>
+          <LogoComponent theme="light" />
+          <SocialIcons theme="light" />
+          <PowerButton />
+          <ParticleComponent theme="light" />
 
-        <Main>
-          <Title>
-            <Design width={40} height={40} /> Web Designer
-          </Title>
-          <Description>
-            I love to create designs which speaks, keep illustrations clean,
-            minimal and simple!
-          </Description>
-          <Description>
-            <strong>I like to Design</strong>
-            <ul>
-              <li>Websites</li>
-              <li>Mobile Apps</li>
-            </ul>
-          </Description>
-          <Description>
-            <strong>Tools</strong>
-            <ul>
-              <li>Figma</li>
-            </ul>
-          </Description>
-        </Main>
-        <Main>
-          <Title>
-            <Develope width={40} height={40} /> Frontend Developer
-          </Title>
-          <Description>
-            I value business or brand for which I'm creating, thus I enjoy
-            brining new ideas to life.
-          </Description>
-          <Description>
-            <strong>Skills</strong>
-            <ul>Html, Css, Js, React, Redux, Node.js, Express, SQL, Heroku</ul>
-          </Description>
-          <Description>
-            <strong>Tools</strong>
-            <p>VScode, Github, Codepen etc.</p>
-          </Description>
-        </Main>
-      </Box>
+          <Main>
+            <Title>
+              <Develope width={40} height={40} /> Full-Stack Developer
+            </Title>
+            <Description>
+              I build scalable web applications and intelligent AI-driven solutions,  
+              ensuring efficiency and performance.
+            </Description>
+            <Description>
+              <strong>Skills</strong>
+              <ul>
+                <li>Python, JavaScript, Java</li>
+                <li>Django, React, Node.js, Express</li>
+                <li>SQL, MongoDB, Firebase</li>
+                <li>Docker, Git, REST APIs</li>
+              </ul>
+            </Description>
+            <Description>
+              <strong>Tools</strong>
+              <p>VS Code, GitHub, Postman, Linux</p>
+            </Description>
+          </Main>
+
+          <Main>
+            <Title>
+              <Design width={40} height={40} /> AI & Machine Learning Enthusiast
+            </Title>
+            <Description>
+              Passionate about AI-powered applications, leveraging models like  
+              SVM, BERT, and Alpha-Beta pruning for intelligent decision-making.
+            </Description>
+            <Description>
+              <strong>Skills</strong>
+              <ul>
+                <li>Machine Learning, NLP</li>
+                <li>OpenAI, TensorFlow, Scikit-learn</li>
+                <li>Model Deployment on Cloud</li>
+              </ul>
+            </Description>
+            <Description>
+              <strong>Tools</strong>
+              <p>Jupyter, Google Cloud, Hugging Face</p>
+            </Description>
+          </Main>
+        </Box>
       </Suspense>
     </ThemeProvider>
   );
