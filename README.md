@@ -1,6 +1,6 @@
 # Portfolio Website
 
-This is a personal portfolio website built using React and Webpack. It showcases projects, skills, and contact information.
+This is a personal portfolio website built using React and Webpack. It showcases my projects, skills, and contact information.
 
 ## 🚀 Features
 - Interactive UI with modern design
